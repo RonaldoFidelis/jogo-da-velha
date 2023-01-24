@@ -2,7 +2,7 @@ const container = document.querySelector('.container');
 const startJogo = document.querySelector('.restart');
 const resetJogo = document.querySelector('.btnReset');
 let popup = document.querySelector('.gamerOver');
-let vencedor = document.createElement('p');
+let msgVencedor = document.querySelector('.msgFimDeJogo');
 
 const jogo_da_velha = {
     tabuleiro: ['', '', '', '', '', '', '', '', ''],
@@ -44,22 +44,21 @@ const jogo_da_velha = {
         }
     },
 
-    endGame: function () {
-        popup.classList.remove('hidden');
-    },
-
     verificadorSequencial: function (simbolo){
         for (i in this.sequenciasVencedoras){
             if( this.tabuleiro[ this.sequenciasVencedoras[i][0] ] == simbolo &&
                 this.tabuleiro[ this.sequenciasVencedoras[i][1] ] == simbolo &&
                 this.tabuleiro[ this.sequenciasVencedoras[i][2] ] == simbolo ) {
-                    this.jogadorVencedor = `<p class="messagemFimDeJogo">Vencedor:${simbolo}</p>`;
-                    
                     console.log('sequencia vencedora:'+ this.tabuleiro[i]);
+                    msgVencedor.innerText = `Vencedor: ${simbolo}`;
                     return i;
                 }
         };
         return -1;
+    },
+
+    endGame: function () {
+        popup.classList.remove('hidden');
     },
 
     exibirTabuleiro: function(){
