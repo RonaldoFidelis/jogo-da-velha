@@ -12,6 +12,71 @@ body{
     background: linear-gradient(135deg,#03172F,#062844,#093657);
 }
 
+.wrapper {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+}
+.primeiraJogada{
+    color: #ffff;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+}
+
+.jogadorAtual{
+    color: #ffff;
+    margin-top: 1em;
+    margin-bottom: 0.5em;
+
+}
+
+.container{
+    width: 70vmin;
+    height: 70vmin;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2vmin;
+}
+
+button{
+    cursor: pointer;
+}
+
+
+.restart {
+    background-color: #D7B030;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    display: block;
+    position: relative;
+    margin:  2em auto;
+    padding: 1rem;
+    width: 100px;
+    font-size: 1.5em;
+}
+
+.restart:hover {
+    background-color: #fdc81a;
+}
+
+.button-display{
+    background-color: #ffff;
+    height: 22vmin;
+    width: 22vmin;
+    border: none;
+    border-radius: 8px;
+    color: black;
+    font-size: 12vmin;
+    animation: 3s;
+}
+
+.button-display:hover {
+    background-color: rgb(177, 177, 177);
+}
+
 .gamerOver{
     backdrop-filter: blur(5px);
     width: 100%;
@@ -47,57 +112,6 @@ body{
     color: #03172F;
     text-align: center;
     
-}
-
-.wrapper {
-    position: absolute;
-    transform: translate(-50%, -50%);
-    top: 50%;
-    left: 50%;
-}
-
-.container{
-    width: 70vmin;
-    height: 70vmin;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2vmin;
-}
-
-button{
-    cursor: pointer;
-}
-
-.restart {
-    background-color: #D7B030;
-    color: rgb(255, 255, 255);
-    border: none;
-    border-radius: 8px;
-    display: block;
-    position: relative;
-    margin:  2em auto;
-    padding: 1rem;
-    width: 100px;
-    font-size: 1.5em;
-}
-
-.restart:hover {
-    background-color: #fdc81a;
-}
-
-.button-display{
-    background-color: #ffff;
-    height: 22vmin;
-    width: 22vmin;
-    border: none;
-    border-radius: 8px;
-    color: black;
-    font-size: 12vmin;
-    animation: 3s;
-}
-
-.button-display:hover {
-    background-color: rgb(177, 177, 177);
 }
 
 
