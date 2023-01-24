@@ -1,6 +1,6 @@
 ## Projeto - Jogo da velha
 
-<img src="./assets/img/jogo_da_velha" alt="">
+<img src="./assets/img/jogo_da_velha.png" alt="">
 
 
 ## Tecnologias
