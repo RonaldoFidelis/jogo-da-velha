@@ -1,14 +1,19 @@
-## Projeto - Jogo da velha
+<h1 align=center> JOGO DA VELHA - JS </h1>
 
-<img src="./assets/img/jogo_da_velha.png" alt="">
+<br>
 
 
-## Tecnologias
+<br>
 
-- Html
-- Css 
-- JavaScript
+> Teste você mesmo: <a href="https://dazzling-sorbet-2ea073.netlify.app/" target="_blank"> Cronômetro </a>
 
-## Testar
+## 🚀 Tecnologias usadas:
 
-- https://dazzling-sorbet-2ea073.netlify.app/
+* **[ JavaScript ](https://developer.mozilla.org/en-US/docs/Web/JavaScript)**
+* **[ HTML ](https://developer.mozilla.org/pt-BR/docs/Web/HTML)**
+* **[ CSS ](https://developer.mozilla.org/pt-BR/docs/Web/CSS)**
+* **[ FONT AWESOME ](https://fontawesome.com/)**
+
+## 📝 Maiores aprendizados
+
+* Lógica
