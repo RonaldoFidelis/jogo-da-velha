@@ -2,6 +2,7 @@
 
 <br>
 
+[cap-jogo-da-velha.webm](https://github.com/RonaldoFidelis/jogo-da-velha/assets/92171641/cbfb3939-9dbd-4b9b-91bb-1e78b3b4d62c)
 
 <br>
 
