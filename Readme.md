@@ -6,7 +6,7 @@
 
 <br>
 
-> Teste você mesmo: <a href="https://dazzling-sorbet-2ea073.netlify.app/" target="_blank"> Cronômetro </a>
+> Teste você mesmo: <a href="https://dazzling-sorbet-2ea073.netlify.app/" target="_blank"> Jogo da velha </a>
 
 ## 🚀 Tecnologias usadas:
 
